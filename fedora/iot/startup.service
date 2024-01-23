@@ -1,0 +1,8 @@
+[Unit]
+Description=Spark service
+
+[Service]
+ExecStart=/etc/startup-script.sh
+
+[Install]
+WantedBy=default.target
